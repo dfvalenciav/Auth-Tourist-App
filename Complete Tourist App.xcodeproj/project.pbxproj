@@ -15,6 +15,7 @@
 		1408332728A1F8E900014262 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1408332628A1F8E900014262 /* FirebaseFirestore */; };
 		1408332928A1F8EA00014262 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1408332828A1F8EA00014262 /* FirebaseStorage */; };
 		1408332F28A1FB2600014262 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1408332E28A1FB2600014262 /* Colors.xcassets */; };
+		140D8BE928B710DF009694C9 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D8BE828B710DF009694C9 /* DataController.swift */; };
 		141097C328B5B2400025CA55 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141097C228B5B2400025CA55 /* MapViewController.swift */; };
 		141097C528B5B2630025CA55 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141097C428B5B2630025CA55 /* PhotoViewController.swift */; };
 		141103B7289FF50F006BBD4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141103B6289FF50F006BBD4D /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1408331B28A1F84800014262 /* GoogleService-Info .plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info .plist"; sourceTree = "<group>"; };
 		1408332E28A1FB2600014262 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		140D8BE828B710DF009694C9 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		141097C228B5B2400025CA55 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		141097C428B5B2630025CA55 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		141103B3289FF50F006BBD4D /* Complete Tourist App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Complete Tourist App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				141103BF289FF50F006BBD4D /* Complete_Tourist_App.xcdatamodeld */,
+				140D8BE828B710DF009694C9 /* DataController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				1419317F28B0750C000F8976 /* RegisterViewController.swift in Sources */,
 				141103C1289FF50F006BBD4D /* Complete_Tourist_App.xcdatamodeld in Sources */,
 				141097C528B5B2630025CA55 /* PhotoViewController.swift in Sources */,
+				140D8BE928B710DF009694C9 /* DataController.swift in Sources */,
 				141103B7289FF50F006BBD4D /* AppDelegate.swift in Sources */,
 				141103B9289FF50F006BBD4D /* SceneDelegate.swift in Sources */,
 			);

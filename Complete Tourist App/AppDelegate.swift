@@ -11,9 +11,10 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    let dataController = DataController(modelName: "Complete_Tourist_App")
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        dataController.load()
         Thread.sleep(forTimeInterval: 2.5)
         return true
     }
