@@ -233,7 +233,7 @@
         <!--Map View Controller-->
         <scene sceneID="NPe-bi-JFn">
             <objects>
-                <viewController id="ezt-P1-IA4" customClass="MapViewController" customModule="VirtualTouristApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ezt-P1-IA4" customClass="MapViewController" customModule="Complete_Tourist_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TIP-Wq-emi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -264,7 +264,7 @@
         <!--Photo View Controller-->
         <scene sceneID="Vmf-do-Jwp">
             <objects>
-                <viewController storyboardIdentifier="PhotoViewController" id="Y52-2W-s0T" customClass="PhotoViewController" customModule="VirtualTouristApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotoViewController" id="Y52-2W-s0T" customClass="PhotoViewController" customModule="Complete_Tourist_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JXp-Dd-60o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -285,7 +285,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCellViewController" id="sZY-PK-ysJ" customClass="PhotoCellViewController" customModule="VirtualTouristApp" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCellViewController" id="sZY-PK-ysJ" customClass="PhotoCellViewController" customModule="Complete_Tourist_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="52" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="78w-xD-K00">

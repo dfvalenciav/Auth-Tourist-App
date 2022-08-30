@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
     
@@ -25,9 +26,20 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func loginToMapAction(_ sender: Any) {
-        performSegue(withIdentifier: "loginToMap", sender: nil)
+        if let email = loginEmailOutlet.text , let password = loginPasswordOutlet.text {
+            Auth.auth().signIn(withEmail: email, password: password){
+            (result, error) in
+            if let result = result, error == nil {
+                self.performSegue(withIdentifier: "loginToMap", sender: nil)
+            }else {
+                let alertController = UIAlertController(title: "Error", message: "Se ha producido un error registrando el usuario", preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))
+                self.present(alertController, animated: true, completion: nil)
+            }
+        }
     }
-    
-    
 }
+}
+        
+
 
