@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E84BBBF7-39EB-44D3-8E23-1F9393D4B1A9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE328DF9-CA44-4AFD-8BA6-B3CF1E9F9BC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Complete Tourist App/Controller/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "regiterToMapAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FDDB79E-AAE7-4D19-A16C-5592702EC544"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Complete Tourist App/Controller/RegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "regiterToMapAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6FDDB79E-AAE7-4D19-A16C-5592702EC544 - 5738c1eb3f84fde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Complete_Tourist_App.RegisterViewController.regiterToMapAction(Any) -&gt; ()"
+                  moduleName = "Complete Tourist App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dfvalencia/Documents/IOS/udacity/ios_udacity/assigments/Complete%20Tourist%20App/Complete%20Tourist%20App/Controller/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "129">
+               </Location>
+               <Location
+                  uuid = "6FDDB79E-AAE7-4D19-A16C-5592702EC544 - 5738c1eb3f84fde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Complete_Tourist_App.RegisterViewController.regiterToMapAction(Any) -&gt; ()"
+                  moduleName = "Complete Tourist App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dfvalencia/Documents/IOS/udacity/ios_udacity/assigments/Complete%20Tourist%20App/Complete%20Tourist%20App/Controller/RegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "155">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,6 +7,8 @@
 
 import Foundation
 import UIKit
+import FirebaseAuth
+
 
 
 class RegisterViewController: UIViewController {
@@ -21,7 +23,17 @@ class RegisterViewController: UIViewController {
     }
 
     @IBAction func regiterToMapAction(_ sender: Any) {
-        performSegue(withIdentifier: "registerToMap", sender: nil)
+        if let email = registerEmailOutlet.text , let password = registerPasswordOutlet.text {
+            Auth.auth().createUser(withEmail: email, password: password){
+            (result, error) in
+            if let result = result, error == nil {
+                self.performSegue(withIdentifier: "registerToMap", sender: nil)
+            }else {
+                let alertController = UIAlertController(title: "Error", message: "Se ha producido un error registrando el usuario", preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "Aceptar", style: .default))
+                self.present(alertController, animated: true, completion: nil)
+                }
+            }
+        }
     }
-    
 }
